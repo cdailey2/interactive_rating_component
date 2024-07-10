@@ -1,0 +1,122 @@
+html {
+    background-color:#121417
+}
+
+#rating-component {
+    width:350px;
+    height:350px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background: linear-gradient(#252D37, #181E26);
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction:column;
+
+    font-family: Overpass;
+}
+
+.circle {
+    background-color:#333F4D;
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#star-icon {
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.text {
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+.text h2 {
+    color: white;
+}
+
+.text p {
+    color: 	#959eac;
+}
+
+#rating-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#rating-container button {
+    color: #959eac;
+}
+
+button {
+    border:none;
+}
+
+#button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#button-container button {
+    color: #181E26;
+    background-color: #FC7614;
+
+    height: 200%;
+    width: 80%;
+
+    border-radius: 20px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#rating-container button:focus {
+    background-color: white;
+    color: #181E26;
+}
+
+#rating-container button:hover {
+    background-color: #FC7614;
+    color: #181E26;
+}
+
+#button-container button:hover {
+    background-color: white;
+    transform:scale(1.02);
+}
+
+#credits {
+    color:white;
+    font-family: Overpass;
+    font-size: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+a:link {
+    color:#FC7614;
+}
+a:visited {
+    color:#959eac;
+}
