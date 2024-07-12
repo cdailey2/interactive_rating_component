@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <div id="rating-component">
+    <div id="rating-component" class="component">
         <div class="circle" id="star-icon">
             <img src="icon-star.svg"/>
         </div>
@@ -21,17 +21,32 @@
         </div>
 
         <div id="rating-container">
-            <button class="circle" class="rating button">1</button>
-            <button class="circle" class="rating button">2</button>
-            <button class="circle" class="rating button">3</button>
-            <button class="circle" class="rating button">4</button>
-            <button class="circle" class="rating button">5</button>
+            <button class="rating-button circle" id="1">1</button>
+            <button class="rating-button circle" id="2">2</button>
+            <button class="rating-button circle" id="3">3</button>
+            <button class="rating-button circle" id="4">4</button>
+            <button class="rating-button circle" id="5">5</button>
         </div>
 
         <div id="button-container">
-            <button>SUBMIT</button>
+            <button id="submit-button">SUBMIT</button>
         </div>
 
+    </div>
+
+    <div id="thank-you-component" class="component hidden">
+        <div id="thank-you-icon">
+            <img src="illustration-thank-you.svg">
+        </div>
+
+        <div id="response-container">
+            <div id="your-response"></div>
+        </div>
+
+        <div class="text" id="thank-you-message">
+            <h2>Thank you!</h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </div>
     </div>
 
     <p id="credits">Style and images presented by &nbsp<a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Frontend Mentor</a>.&nbsp Coded by &nbsp<a href="https://github.com/cdailey2" target="_blank">Colin Dailey</a>.</p>
