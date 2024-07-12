@@ -2,7 +2,7 @@ html {
     background-color:#121417
 }
 
-#rating-component {
+.component {
     width:350px;
     height:350px;
 
@@ -104,6 +104,45 @@ button:hover {
     background-color: white;
     transform:scale(1.02);
 }
+
+#thank-you-icon {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+#thank-you-message {
+    text-align: center;
+    margin-right: 6%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#response-container {
+    display: flex;
+    justify-content: center;
+}
+
+#your-response {
+    color:#FC7614;
+    background-color: #333F4D;
+
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
 
 #credits {
     color:white;
